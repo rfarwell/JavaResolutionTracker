@@ -1,3 +1,5 @@
+package Models;
+
 public class Resolution {
     private String name;
 
@@ -11,6 +13,6 @@ public class Resolution {
 
     @Override
     public String toString(){
-        return "{Resolution} " + this.name;
+        return "{Models.Resolution} " + this.name;
     }
 }
