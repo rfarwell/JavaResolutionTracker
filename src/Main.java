@@ -1,6 +1,8 @@
 import Models.Resolution;
 import Models.ResolutionCompletionMap;
 
+import java.awt.*;
+
 public class Main {
     public static void main(String[] args) {
         Resolution makeBed = new Resolution("Make bed in the morning");
@@ -10,5 +12,6 @@ public class Main {
         storer.completeResolution(makeBed);
 
         System.out.println(storer.getMap());
+        new Button();
     }
 }
